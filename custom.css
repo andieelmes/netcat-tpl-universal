@@ -1,0 +1,22 @@
+/* Добавьте стили для своего сайта в этот файл */
+
+@media(max-width: 760px) {
+  .tpl-component-goods.tpl-block-full .tpl-block-full-prefix > div.tpl-block-rating {
+    margin-right: auto;
+  }
+  
+  .tpl-component-goods .tpl-block-list-objects .tpl-block-list-object h3 {
+      max-height: 103px;
+      overflow: hidden;
+  }
+  .tpl-widget-netshop-goods-offers .tpl-block-list-objects .tpl-block-prices {
+    right: 30%;
+    text-align: right;
+    left: auto;
+  }
+  .tpl-component-goods.tpl-block-full .tpl-block-full-prefix .tpl-block-social-buttons {
+    min-width: 120px;
+    left: 0;
+    text-align: left;
+  }
+}
