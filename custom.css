@@ -1,3 +1,4 @@
+
 /* Добавьте стили для своего сайта в этот файл */
 
 @media(max-width: 760px) {
@@ -11,7 +12,7 @@
   }
   .tpl-widget-netshop-goods-offers .tpl-block-list-objects .tpl-block-prices {
     right: 30%;
-    text-align: right;
+    text-align: left;
     left: auto;
   }
   .tpl-component-goods.tpl-block-full .tpl-block-full-prefix .tpl-block-social-buttons {
@@ -24,5 +25,59 @@
   }
   .tpl-block-hero .tpl-block-prevnext .tpl-link-prev:before, .tpl-block-hero .tpl-block-prevnext .tpl-link-next:before {
     margin: 16px 0 5px;
+  }
+  body > header .tpl-block-navbar .tpl-link-order-info {
+    padding-left: 30px;
+  }
+  body > header .tpl-block-navbar {
+    margin-top: 53px;
+  }
+  .tpl-widget-netshop-goods-offers .tpl-block-list-objects article {
+    padding: 0 40px 0;
+  }
+  .tpl-widget-netshop-goods-offers .tpl-block-list-objects img.tpl-property-image {
+    height: 450px;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin: 30px auto;
+    max-width: 100%;
+    max-height: 9999px;
+  }
+  .tpl-widget-netshop-goods-offers .tpl-block-list-objects .tpl-block-prices, .tpl-widget-netshop-goods-offers .tpl-block-list-objects .tpl-block-text {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+  }
+  .tpl-widget-netshop-goods-offers .tpl-block-list-objects .tpl-property-item-price {
+    float:left;
+  }
+  .tpl-widget-netshop-goods-offers .tpl-block-list-objects .tpl-block-prices .tpl-property-original-price {
+    float: right;
+    margin-top: -10px;
+  }
+  .tpl-widget-netshop-goods-offers .tpl-block-list-objects .tpl-block-text {
+    margin-top: 30px;
+  }
+  .tpl-widget-netshop-goods-offers .tpl-block-list-objects .tpl-block-prices:after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
+  .tpl-block-main.tpl-component-cart .tpl-block-cart-item h3 {
+    width: auto;
+    padding-right: 30px;
+  }
+  .tpl-block-main.tpl-component-cart .tpl-block-cart-coupons-add input {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .tpl-block-main.tpl-component-order table.tpl-block-order-items th:first-child, .tpl-block-main.tpl-component-order table.tpl-block-order-items td:first-child {
+    padding-left: 0;
   }
 }
